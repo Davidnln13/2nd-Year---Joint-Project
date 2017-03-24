@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\AI.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Audio.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HUD.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LevelLoader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Paint.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResourceManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScreenManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Track.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Xbox360Controller.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Button.cpp">
+      <Filter>Source\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Label.cpp">
+      <Filter>Source\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RadioButton.cpp">
+      <Filter>Source\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Slider.cpp">
+      <Filter>Source\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widget.cpp">
+      <Filter>Source\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GarageScreen.cpp">
+      <Filter>Source\Screen Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HelpScreen.cpp">
+      <Filter>Source\Screen Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HighscoreScreen.cpp">
+      <Filter>Source\Screen Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LicenseScreen.cpp">
+      <Filter>Source\Screen Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainScreen.cpp">
+      <Filter>Source\Screen Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OptionsScreen.cpp">
+      <Filter>Source\Screen Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PauseScreen.cpp">
+      <Filter>Source\Screen Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlayScreen.cpp">
+      <Filter>Source\Screen Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PostRaceScreen.cpp">
+      <Filter>Source\Screen Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PreRaceScreen.cpp">
+      <Filter>Source\Screen Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Screen.cpp">
+      <Filter>Source\Screen Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SplashScreen.cpp">
+      <Filter>Source\Screen Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\AI.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Audio.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HUD.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LevelLoader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Paint.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Player.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResourceManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ScreenManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Track.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Xbox360Controller.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Button.h">
+      <Filter>Headers\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Label.h">
+      <Filter>Headers\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Slider.h">
+      <Filter>Headers\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Widget.h">
+      <Filter>Headers\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RadioButton.h">
+      <Filter>Headers\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GarageScreen.h">
+      <Filter>Headers\Screen Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HelpScreen.h">
+      <Filter>Headers\Screen Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HighscoreScreen.h">
+      <Filter>Headers\Screen Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LicenseScreen.h">
+      <Filter>Headers\Screen Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MainScreen.h">
+      <Filter>Headers\Screen Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OptionsScreen.h">
+      <Filter>Headers\Screen Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PauseScreen.h">
+      <Filter>Headers\Screen Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlayScreen.h">
+      <Filter>Headers\Screen Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PostRaceScreen.h">
+      <Filter>Headers\Screen Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PreRaceScreen.h">
+      <Filter>Headers\Screen Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Screen.h">
+      <Filter>Headers\Screen Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SplashScreen.h">
+      <Filter>Headers\Screen Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{53593ce6-fa4f-4fd2-8cdb-b01e19049771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{ea483da4-62df-4fbe-ac66-7f861fafbf3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Screen Headers">
+      <UniqueIdentifier>{0704c177-9e43-4e95-8205-3b5b2b3d28da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Widgets">
+      <UniqueIdentifier>{f1521648-78fb-4df6-901e-2858fba4bba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Screen Source">
+      <UniqueIdentifier>{4517f080-3bf7-48e2-b610-5fad5a4b7c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Widgets">
+      <UniqueIdentifier>{85d0c456-0cd2-4136-840e-98f610fb3924}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

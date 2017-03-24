@@ -1,0 +1,91 @@
+background:
+   file: ./resources/map.png 
+player:
+   position: {x: 796, y: 1376}
+   rotation: 0
+ai:
+ - type: slow
+   position: {x: 731, y: 1376}
+   rotation: 0
+ - type: fast
+   position: {x: 666, y: 1376}
+   rotation: 0
+ - type: slowTurner
+   position: {x: 777, y: 1432}
+   rotation: 0 
+ - type: fastTurner
+   position: {x: 711, y: 1432}
+   rotation: 0
+ - type: medium
+   position: {x: 646, y: 1432}
+   rotation: 0
+checkpoint:
+ - type: straight
+   position: {x: 1281, y: 1409}
+   radius: 75
+ - type: corner
+   position: {x: 1408, y: 1281}
+   radius: 85
+ - type: corner
+   position: {x: 1281, y: 1153}
+   radius: 85
+ - type: corner
+   position: {x: 1163, y: 1079}
+   radius: 85
+ - type: corner
+   position: {x: 1149, y: 961}
+   radius: 85
+ - type: corner
+   position: {x: 1218, y: 782}
+   radius: 85
+ - type: corner
+   position: {x: 1407, y: 638}
+   radius: 85
+ - type: corner
+   position: {x: 1277, y: 510}
+   radius: 85
+ - type: corner
+   position: {x: 448, y: 576}
+   radius: 85
+ - type: corner
+   position: {x: 445, y: 829}
+   radius: 85
+ - type: corner
+   position: {x: 541, y: 879}
+   radius: 85
+ - type: corner
+   position: {x: 639, y: 829}
+   radius: 85
+ - type: corner
+   position: {x: 703, y: 765}
+   radius: 85
+ - type: corner
+   position: {x: 861, y: 764}
+   radius: 85
+ - type: corner
+   position: {x: 958, y: 894}
+   radius: 85
+ - type: corner
+   position: {x: 961, y: 1026}
+   radius: 85
+ - type: corner
+   position: {x: 832, y: 1152}
+   radius: 85
+ - type: corner
+   position: {x: 832, y: 1152}
+   radius: 85
+ - type: corner
+   position: {x: 639, y: 1151}
+   radius: 85
+ - type: corner
+   position: {x: 510, y: 1277}
+   radius: 85
+ - type: corner
+   position: {x: 510, y: 1277}
+   radius: 85
+ - type: straight
+   position: {x: 638, y: 1408}
+   radius: 85
+ - type: finishLine
+   position: {x: 865, y: 1408}
+   radius: 85
