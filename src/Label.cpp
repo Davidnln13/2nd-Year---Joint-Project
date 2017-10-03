@@ -30,14 +30,14 @@ void Label::render(sf::RenderWindow& window)
 void Label::setString(std::string string, sf::Color aColor)
 {
 	m_labelText.setString(string);
-	m_labelText.setColor(aColor);
+	m_labelText.setFillColor(aColor);
 }
 
 void Label::setAlpha(int newAlpha)
 {
-	auto currentColor = m_labelText.getColor();
+	auto currentColor = m_labelText.getFillColor();
 	currentColor.a = newAlpha;
-	m_labelText.setColor(currentColor);
+	m_labelText.setFillColor(currentColor);
 }
 
 sf::Vector2f Label::getGuiPos()

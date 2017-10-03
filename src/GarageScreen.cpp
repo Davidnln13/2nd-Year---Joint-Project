@@ -627,10 +627,10 @@ void GarageScreen::setPaintAlphas()
 void GarageScreen::setColour(sf::Color color)
 {
 	//Reset our shader variables
-	m_shader.setParameter("newR", 0);
-	m_shader.setParameter("newG", 0);
-	m_shader.setParameter("newB", 0);
-	m_shader.setParameter("newA", 0);
+	m_shader.setUniform("newR", 0);
+	m_shader.setUniform("newG", 0);
+	m_shader.setUniform("newB", 0);
+	m_shader.setUniform("newA", 0);
 
 	//Calculate our new colours
 	float newR = color.r / 255.0;
@@ -639,8 +639,8 @@ void GarageScreen::setColour(sf::Color color)
 	float newA = color.a / 255.0;
 
 	//Set our shade runiform variables to our new calculated colour
-	m_shader.setParameter("newR", newR);
-	m_shader.setParameter("newG", newG);
-	m_shader.setParameter("newB", newB);
-	m_shader.setParameter("newA", newA);
+	m_shader.setUniform("newR", newR);
+	m_shader.setUniform("newG", newG);
+	m_shader.setUniform("newB", newB);
+	m_shader.setUniform("newA", newA);
 }

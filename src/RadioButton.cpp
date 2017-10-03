@@ -49,7 +49,7 @@ bool RadioButton::isAnimationPlaying()
 void RadioButton::render(sf::RenderWindow & window)
 {
 	//Setting our time parameter in our shader to the time gone since our shader clocks last restart
-	m_selectedShader.setParameter("time", m_shaderClock.getElapsedTime().asSeconds());
+	m_selectedShader.setUniform("time", m_shaderClock.getElapsedTime().asSeconds());
 
 	//draw our button sprite
 	window.draw(m_sprite, &m_selectedShader);

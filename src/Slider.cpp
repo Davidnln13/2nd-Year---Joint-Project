@@ -79,7 +79,7 @@ void Slider::focus(std::string string)
 void Slider::render(sf::RenderWindow& window)
 {
 	//Setting our time parameter in our shader to the time gone since our shader clocks last restart
-	m_selectedShader.setParameter("time", m_shaderClock.getElapsedTime().asSeconds());
+	m_selectedShader.setUniform("time", m_shaderClock.getElapsedTime().asSeconds());
 
 	//draw our slider bg with the applied shader
 	window.draw(m_sprite, &m_selectedShader);
